@@ -1,0 +1,6 @@
+slprj/
+.vscode/
+
+*.asv
+*.slxc
+*.slx.autosave

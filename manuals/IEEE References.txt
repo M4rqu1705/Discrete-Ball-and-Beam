@@ -1,0 +1,13 @@
+Student Workbook: Ball and Beam Experiment for MATLAB®/Simulink® Users, Quanser Inc., Markham, ON, Canada, 2020.
+
+User Manual: Ball and Beam Experiment, Quanser Inc., Markham, ON, Canada, 2020.
+
+User Manual: Q2-USB Data Acquisition Board, Quanser Inc., Markham, ON, Canada, 2012.
+
+User Manual: Q8-USB Data Acquisition Device, Quanser Inc., Markham, ON, Canada, 2012.
+
+Student Workbook: SRV02 Base Unit Experiment for Matlab®/Simulink® Users, Quanser Inc., Markham, ON, Canada, 2011.
+
+User Manual: SRV02 Rotary Servo Base Unit, Quanser Inc., Markham, ON, Canada, 2020.
+
+User Manual: VoltPAQ-X1 Amplifier, Quanser Inc., Markham, ON, Canada, 2012.
