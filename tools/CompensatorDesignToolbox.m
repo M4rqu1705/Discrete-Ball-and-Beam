@@ -1,16 +1,16 @@
 %% Compensator Design Tools - INEL 5508
 % This script helps perform calculations, in turn saving a lot of time.
+
 % Desired performance characteristics
 clear all;
 close all;
 clc;
 
-
-% %O.S. <= 15%
+%O.S. <= 15%
 percent_overshoot = 15; % [%]
 
 % T_s <= 6 seg
-settling_time = 3.5; % [seg]
+settling_time = 5; % [seg]
 
 % Sampling Time
 T = 0.05; % [seg]
@@ -109,6 +109,7 @@ hold off;
 legend(functions_to_plot(:,1)', 'Location', "bestoutside");
 
 %% Phase Lag Compensator
+
 % We will reuse functions_to_plot
 clear functions_to_plot
 
@@ -116,16 +117,13 @@ clear functions_to_plot
 G_p = zpk([0.948], [-0.3724], 33.115, T) * zpk([-3.5954, -0.258], [1, 0.9048, 0.9512], 0.04014E-3, T);
 
 % Determine K_d, which indicates how many times you want to reduce e_ss
-n = 10
-K_u = 33.115; % Taken directly from the lead compensator
-K_d = 1/n;
-K_c = K_u / K_d;
+n = 10;
 
 % Select a lag compensator pole, which must be close to z=1
-lag_compensator_poles = 0.99:0.001:0.999;
+lag_compensator_poles = 0.999:0.0001:0.9999;
 
 % Calculate the lag compensator's zero
-lag_compensator_zeroes = 1 - (1 - lag_compensator_poles) ./ K_d;
+lag_compensator_zeroes = 1 - (1 - lag_compensator_poles) .* n;
 
 functions_to_plot = [];
 for idx = 1:length(lag_compensator_poles)
@@ -136,7 +134,7 @@ for idx = 1:length(lag_compensator_poles)
     end
     
     % Lag Compensator
-    G_lag = zpk(lag_compensator_zeroes(idx), lag_compensator_poles(idx), n, T);
+    G_lag = zpk(lag_compensator_zeroes(idx), lag_compensator_poles(idx), 1 , T);
     
     % Plot function only if system is table
     if max(abs(zero(G_lag * G_p + 1))) <= 1 && sum(abs(zero(G_lag * G_p + 1)) == 1) <= 1
@@ -166,4 +164,6 @@ hold off;
 legend(functions_to_plot(:,1)', 'Location', "bestoutside");
 
 %% Summary
+% Here are the lead and lag compensators that I chose to implement.
 G_lead = zpk([0.948], [-0.3724], 33.115, T);
+G_lag = zpk([0.999], [0.9999], 1, T);
