@@ -1,0 +1,633 @@
+!SESSION 2022-11-28 16:34:38.102 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 16:34:52.034
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:34:52.034
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:34:52.034
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:34:52.034
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:34:52.034
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:34:52.034
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:34:52.034
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:34:52.034
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:34:52.034
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-28 16:36:28.378
+!MESSAGE Indexed 'F28069_BlinkingLed' (10 sources, 33 headers) in 0.95 sec: 5,534 declarations; 6,248 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-28 16:37:06.676
+!MESSAGE Indexed 'CCSOLVI' (10 sources, 33 headers) in 0.59 sec: 5,534 declarations; 6,248 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-28 17:32:37.075
+!MESSAGE Indexed 'CCSOLVI' (10 sources, 33 headers) in 0.63 sec: 5,542 declarations; 6,286 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2022-11-28 17:33:13.526 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 4 567 2022-11-28 17:33:22.392
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2022-11-28 17:33:22.392
+!MESSAGE Could not read metadata for 'CCSOLVI'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'CCSOLVI' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:874)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:854)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:703)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1528)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2502)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2251)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2022-11-28 17:33:22.392
+!MESSAGE The project description file (.project) for 'CCSOLVI' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 17:33:23.221
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:23.221
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:23.221
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:23.221
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:23.221
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:23.221
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:23.221
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:23.221
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:23.221
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+!SESSION 2022-11-28 17:33:42.760 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 17:33:53.958
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:53.958
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:53.958
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:53.958
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:53.958
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:53.958
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:53.958
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:53.958
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:33:53.958
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+!SESSION 2022-11-28 17:35:37.111 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 17:35:45.422
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:35:45.422
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:35:45.422
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:35:45.422
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:35:45.422
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:35:45.422
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:35:45.422
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:35:45.422
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:35:45.422
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.osgi 4 0 2022-11-28 17:35:51.943
+!MESSAGE Application error
+!STACK 1
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3814)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: java.lang.NullPointerException
+	at com.ti.dvt.rovsupport.ROVPlugin$4.run(ROVPlugin.java:1002)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 17 more
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-11-28 17:35:53.304
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.AbstractWorkingSetManager$10
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-11-28 17:35:53.314
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.AbstractWorkingSetManager$10
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-11-28 17:35:53.316
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.AbstractWorkingSetManager$10
+!SESSION 2022-11-28 17:36:33.615 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 17:36:47.992
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:36:47.992
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:36:47.992
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:36:47.992
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:36:47.992
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:36:47.992
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:36:47.992
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:36:47.992
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:36:47.992
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.core.resources 4 567 2022-11-28 17:37:04.070
+!MESSAGE The project description file (.project) for 'CCSOLVI' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2022-11-28 17:39:41.991 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 17:39:47.897
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:39:47.897
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:39:47.897
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:39:47.897
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:39:47.897
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:39:47.897
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:39:47.897
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:39:47.897
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:39:47.897
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.ui.workbench 4 2 2022-11-28 17:39:52.619
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1258)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:709)
+	at com.ti.ccstudio.ui.internal.decorations.DecorationManager.start(DecorationManager.java:227)
+	at com.ti.ccstudio.ui.CCStudioUIStartup.earlyStartup(CCStudioUIStartup.java:60)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2470)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2022-11-28 17:39:52.639
+!MESSAGE Unhandled Exception
+
+!ENTRY com.ti.ccstudio.ui 4 0 2022-11-28 17:39:52.639
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1258)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:709)
+	at com.ti.ccstudio.ui.internal.decorations.DecorationManager.start(DecorationManager.java:227)
+	at com.ti.ccstudio.ui.CCStudioUIStartup.earlyStartup(CCStudioUIStartup.java:60)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2470)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2022-11-28 17:41:33.670 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 17:41:42.245
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:41:42.245
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:41:42.245
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:41:42.245
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:41:42.245
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:41:42.245
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:41:42.245
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:41:42.245
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:41:42.245
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.core.resources 4 567 2022-11-28 17:41:54.700
+!MESSAGE The project description file (.project) for 'CCSOLVI_Raw' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2022-11-28 17:42:10.727 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 17:42:19.467
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:42:19.467
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:42:19.467
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:42:19.467
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:42:19.467
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:42:19.467
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:42:19.467
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:42:19.467
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:42:19.467
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+!SESSION 2022-11-28 17:43:12.447 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -data X:\Desktop\INEL5508\CCSOLVI -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 17:43:16.159
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:43:16.159
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:43:16.159
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:43:16.159
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:43:16.159
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:43:16.159
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:43:16.159
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:43:16.159
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:43:16.159
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-11-28 17:43:39.519
+!MESSAGE X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+!STACK 0
+java.io.FileNotFoundException: X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1079)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.timeStampChanged(LaunchingPlugin.java:988)
+	at org.eclipse.jdt.internal.launching.VMDefinitionsContainer.populateVMForType(VMDefinitionsContainer.java:551)
+	at org.eclipse.jdt.internal.launching.VMDefinitionsContainer.populateVMTypes(VMDefinitionsContainer.java:488)
+	at org.eclipse.jdt.internal.launching.VMDefinitionsContainer.parseXMLIntoContainer(VMDefinitionsContainer.java:467)
+	at org.eclipse.jdt.launching.JavaRuntime.addPersistedVMs(JavaRuntime.java:1488)
+	at org.eclipse.jdt.launching.JavaRuntime.initializeVMs(JavaRuntime.java:2654)
+	at org.eclipse.jdt.launching.JavaRuntime.getVMInstallTypes(JavaRuntime.java:532)
+	at org.eclipse.jdt.internal.launching.JREPreferenceModifyListener.preApply(JREPreferenceModifyListener.java:128)
+	at org.eclipse.core.internal.preferences.PreferencesService$4.run(PreferencesService.java:448)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.PreferencesService.firePreApplyEvent(PreferencesService.java:451)
+	at org.eclipse.core.internal.preferences.PreferencesService.applyPreferences(PreferencesService.java:121)
+	at org.eclipse.core.internal.resources.ProjectPreferences.read(ProjectPreferences.java:206)
+	at org.eclipse.core.internal.resources.ProjectPreferences.updatePreferences(ProjectPreferences.java:274)
+	at org.eclipse.core.internal.resources.File.updateMetadataFiles(File.java:410)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.visit(RefreshLocalVisitor.java:295)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:110)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:920)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:904)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1699)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1157)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1180)
+	at com.ti.ccstudio.project.core.services.ProjectImporter.internalImportProject(ProjectImporter.java:421)
+	at com.ti.ccstudio.project.core.services.ProjectImporter.access$1(ProjectImporter.java:364)
+	at com.ti.ccstudio.project.core.services.ProjectImporter$1.run(ProjectImporter.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.ti.ccstudio.project.core.services.ProjectImporter.importProject(ProjectImporter.java:328)
+	at com.ti.ccstudio.project.ui.internal.wizards.importexport.temp.WizardProjectsImportPage.createExistingProject(WizardProjectsImportPage.java:1371)
+	at com.ti.ccstudio.project.ui.internal.wizards.importexport.temp.WizardProjectsImportPage.access$24(WizardProjectsImportPage.java:1207)
+	at com.ti.ccstudio.project.ui.internal.wizards.importexport.temp.WizardProjectsImportPage$16.execute(WizardProjectsImportPage.java:1146)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.ti.ccstudio.project.core 4 0 2022-11-28 17:43:40.478
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.project.core'.
+!STACK 0
+java.io.FileNotFoundException: X:\Desktop\INEL5508\CCSOLVI\CCSOLVI\.ccsproject (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileWriter.<init>(Unknown Source)
+	at com.ti.ccstudio.project.core.internal.settings.CCSProjectSettings.saveSettings(CCSProjectSettings.java:417)
+	at com.ti.ccstudio.project.core.internal.settings.CCSProjectSettings.setProperty(CCSProjectSettings.java:341)
+	at com.ti.ccstudio.project.core.internal.settings.CCSProjectSettings.setIsTargetConfigurationManual(CCSProjectSettings.java:306)
+	at com.ti.ccstudio.debug.launch.TargetConfigTracker$1.activeConfigFileChanged(TargetConfigTracker.java:52)
+	at com.ti.ccstudio.core.target.config.TargetConfigurationManager.setActiveTargetConfigurationProperty(TargetConfigurationManager.java:307)
+	at com.ti.ccstudio.system.setup.ui.TargetConfigurationDecorator.setActiveConfiguration(TargetConfigurationDecorator.java:246)
+	at com.ti.ccstudio.system.setup.ui.TargetConfigurationDecorator.resourceAdded(TargetConfigurationDecorator.java:320)
+	at com.ti.ccstudio.system.setup.ui.SystemSetupResourceMonitor.notifyAdded(SystemSetupResourceMonitor.java:153)
+	at com.ti.ccstudio.system.setup.ui.SystemSetupResourceMonitor$1$1.run(SystemSetupResourceMonitor.java:91)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-11-28 17:43:40.722
+!MESSAGE X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+!STACK 0
+java.io.FileNotFoundException: X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1079)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.access$0(LaunchingPlugin.java:1051)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:544)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:383)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1130)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-28 17:43:43.059
+!MESSAGE Indexed 'CCSOLVI' (10 sources, 33 headers) in 1.09 sec: 5,542 declarations; 6,286 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-11-28 17:43:50.850
+!MESSAGE X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+!STACK 0
+java.io.FileNotFoundException: X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1079)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.access$0(LaunchingPlugin.java:1051)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:544)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:383)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1130)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-11-28 17:48:55.087
+!MESSAGE X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+!STACK 0
+java.io.FileNotFoundException: X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1079)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.access$0(LaunchingPlugin.java:1051)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:544)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:383)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1130)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-11-28 17:54:02.946
+!MESSAGE X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+!STACK 0
+java.io.FileNotFoundException: X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1079)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.access$0(LaunchingPlugin.java:1051)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:544)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:383)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1130)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 0 2022-11-28 17:56:38.070
+!MESSAGE Problems opening perspective 'com.ti.ccstudio.TICPerspective'
+
+!ENTRY org.eclipse.jdt.launching 4 4 2022-11-28 17:56:38.113
+!MESSAGE X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+!STACK 0
+java.io.FileNotFoundException: X:\Desktop\INEL5508\CCSOLVI\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1079)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.access$0(LaunchingPlugin.java:1051)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:544)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:383)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:192)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:195)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1130)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2375)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-11-28 17:56:40.948
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.DebugUIPlugin$8
+!SESSION 2022-11-28 17:56:45.035 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 17:56:50.659
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:56:50.659
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:56:50.659
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:56:50.659
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:56:50.659
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:56:50.659
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:56:50.659
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:56:50.659
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 17:56:50.659
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+!SESSION 2022-11-28 18:00:09.166 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 18:00:15.667
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:00:15.667
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:00:15.667
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:00:15.667
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:00:15.667
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:00:15.667
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:00:15.667
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:00:15.667
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:00:15.667
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+!SESSION 2022-11-28 18:46:42.090 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 18:47:30.768
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:47:30.768
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:47:30.768
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:47:30.768
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:47:30.768
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:47:30.768
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:47:30.768
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:47:30.768
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:47:30.768
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-28 19:20:05.679
+!MESSAGE DS_ERROR: C28xx: Error: (Error -150 @ 0x0) One of the FTDI driver functions used during configuration returned a invalid status or an error. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-28 19:20:06.058
+!MESSAGE DS_ERROR: C28xx: Unable to determine target status after 20 attempts
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-28 19:20:06.093
+!MESSAGE DS_ERROR: C28xx: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.ui 4 0 2022-11-28 19:20:18.797
+!MESSAGE Problems opening perspective 'com.ti.ccstudio.TICPerspective'

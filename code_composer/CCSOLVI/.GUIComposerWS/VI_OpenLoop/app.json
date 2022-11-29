@@ -1,0 +1,74 @@
+{"widgetBindings": [
+    {
+        "propertyName": "value0",
+        "serverBindName": "adc_master",
+        "widgetId": "ADC_Inputs",
+        "options": {"dataType": "Double"}
+    },
+    {
+        "propertyName": "updateTrigger",
+        "serverBindName": "$refresh_id",
+        "widgetId": "ADC_Inputs",
+        "options": {"dataType": "String"}
+    },
+    {
+        "propertyName": "value1",
+        "serverBindName": "adc_slave",
+        "widgetId": "ADC_Inputs",
+        "options": {"dataType": "Double"}
+    },
+    {
+        "propertyName": "value",
+        "serverBindName": "value:pm.$refresh_interval",
+        "widgetId": "widget_14",
+        "options": {"dataType": "String"}
+    },
+    {
+        "propertyName": "value",
+        "serverBindName": "motor_volts",
+        "widgetId": "widget_17",
+        "options": {"dataType": "Double"}
+    },
+    {
+        "propertyName": "value0",
+        "serverBindName": "angle_deg",
+        "widgetId": "EncoderInputs",
+        "options": {"dataType": "Double"}
+    },
+    {
+        "propertyName": "updateTrigger",
+        "serverBindName": "$refresh_id",
+        "widgetId": "EncoderInputs",
+        "options": {"dataType": "String"}
+    },
+    {
+        "propertyName": "value",
+        "serverBindName": "motor_volts",
+        "widgetId": "MotorVoltsDial",
+        "options": {"dataType": "Double"}
+    },
+    {
+        "propertyName": "value0",
+        "serverBindName": "master_position",
+        "widgetId": "ADCInputs",
+        "options": {"dataType": "Double"}
+    },
+    {
+        "propertyName": "updateTrigger",
+        "serverBindName": "$refresh_id",
+        "widgetId": "ADCInputs",
+        "options": {"dataType": "String"}
+    },
+    {
+        "propertyName": "value1",
+        "serverBindName": "slave_position",
+        "widgetId": "ADCInputs",
+        "options": {"dataType": "Double"}
+    },
+    {
+        "propertyName": "value",
+        "serverBindName": "value:pm.$refresh_interval",
+        "widgetId": "RefreshRate",
+        "options": {"dataType": "String"}
+    }
+]}

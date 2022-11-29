@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head data-gc-version="1.2.201308270800">
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="lib/davinci.dojo_1_8/WebContent/dojo/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gc','location':'../../../../davinci.gc_1_2/WebContent/gc'},{'name':'maqetta','location':'../../../../davinci.gc_1_2/WebContent/maqetta'}]"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "gc/dijit/ScalarLineGraph",
+  "gc/dijit/TextBox"
+]);
+</script>
+<style>@import "lib/davinci.dojo_1_8/WebContent/maqetta/themes/claro/document.css";@import "lib/davinci.dojo_1_8/WebContent/maqetta/themes/claro/claro.css";@import "lib/davinci.dojo_1_8/WebContent/dojo/dojo/resources/dojo.css";@import "lib/davinci.gc_1_2/WebContent/gc/dijit/libs/jqplot/css/jquery.jqplot.min.css";@import "lib/davinci.gc_1_2/WebContent/gc/dijit/libs/css/widgets.css";@import "app.css";
+</style>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="lib/davinci.gc_1_2/WebContent/gc/backplane/guiComposer.js"></script>
+<script type="text/javascript" src="lib/davinci.gc_1_2/WebContent/gc/dijit/libs/jqplot/jqplotGraphFull.min.js"></script>
+</head>
+<body class="claro" data-maq-flow-layout="false" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+ <div id="widget_1" data-dojo-type="gc.dijit.ScalarLineGraph" style="width: 350px; height: 250px; position: absolute; z-index: 900; left: 202px; top: 191px;"></div>
+ <input id="widget_2" type="text" data-dojo-type="gc.dijit.TextBox" intermediateChanges="false" trim="false" uppercase="false" lowercase="false" propercase="false" selectOnClick="false" visible="true" style="position: absolute; z-index: 900; left: 705px; top: 173px;" value="1000"></input>
+</body>
+</html>

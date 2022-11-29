@@ -1,0 +1,839 @@
+!SESSION 2022-11-16 17:58:33.818 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-16 17:58:42.658
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 17:58:42.658
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 17:58:42.658
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 17:58:42.658
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 17:58:42.658
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 17:58:42.658
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 17:58:42.658
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 17:58:42.658
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 17:58:42.658
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-16 18:00:52.764
+!MESSAGE Indexed 'F28069_BlinkingLed' (10 sources, 33 headers) in 0.79 sec: 5,534 declarations; 6,248 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:10:57.897
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -151 @ 0x0) One of the FTDI driver functions used during the connect returned bad status or an error. The cause may one or more of: invalid emulator serial number, blank emulator EEPROM, missing FTDI drivers, faulty USB cable. Use the xds100serial command-line utility in the 'common/uscif' folder to verify the emulator can be located. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:10:57.942
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -151 @ 0x0)
+One of the FTDI driver functions used during
+the connect returned bad status or an error.
+The cause may one or more of: invalid emulator serial number,
+blank emulator EEPROM, missing FTDI drivers, faulty USB cable.
+Use the xds100serial command-line utility in the 'common/uscif'
+folder to verify the emulator can be located.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:11:21.079
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -151 @ 0x0) One of the FTDI driver functions used during the connect returned bad status or an error. The cause may one or more of: invalid emulator serial number, blank emulator EEPROM, missing FTDI drivers, faulty USB cable. Use the xds100serial command-line utility in the 'common/uscif' folder to verify the emulator can be located. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:11:21.100
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -151 @ 0x0)
+One of the FTDI driver functions used during
+the connect returned bad status or an error.
+The cause may one or more of: invalid emulator serial number,
+blank emulator EEPROM, missing FTDI drivers, faulty USB cable.
+Use the xds100serial command-line utility in the 'common/uscif'
+folder to verify the emulator can be located.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:13:32.688
+!MESSAGE DS_ERROR: C28xx: GEL: Encountered a problem loading file: C:\Users\marcos.pesante\Downloads\Workshop1_Microcontroller\F28069_BlinkingLed\Debug\Example_2806xAdcSoc.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:13:48.343
+!MESSAGE DS_ERROR: C28xx: GEL: Encountered a problem loading file: C:\Users\marcos.pesante\Downloads\Workshop1_Microcontroller\F28069_BlinkingLed\Debug\Example_2806xAdcSoc.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:20:33.730
+!MESSAGE DS_ERROR: C28xx: Error: (Error -150 @ 0x0) One of the FTDI driver functions used during configuration returned a invalid status or an error. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:20:34.027
+!MESSAGE DS_ERROR: C28xx: Unable to determine target status after 20 attempts
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:20:34.047
+!MESSAGE DS_ERROR: C28xx: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:07.860
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -154 @ 0x0) One of the FTDI driver functions used to write data returned bad status or an error. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:07.895
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -154 @ 0x0)
+One of the FTDI driver functions used to
+write data returned bad status or an error.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:15.269
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF4C) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:15.291
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF4C)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:22.986
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:23.036
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:24.073
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:24.121
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:34.306
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:34.383
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:35.620
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:35.665
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:47.013
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:25:47.075
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:15.762
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:15.870
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:17.725
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:17.771
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:23.784
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:23.836
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:33.129
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:33.197
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:34.079
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:34.132
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:34.637
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:34.687
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:34.816
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:34.862
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:35.193
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:35.245
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:35.369
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:35.426
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:35.626
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:35.667
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:40.441
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:40.483
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:40.986
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:41.033
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:41.187
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:41.239
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:41.334
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:41.380
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:44.818
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:44.866
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:45.295
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:45.343
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:45.465
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:45.516
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:56.642
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:26:56.708
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:09.691
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:09.757
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:14.105
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:14.158
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:20.941
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:21.021
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:25.729
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:25.782
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:26.752
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:26.803
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:27.288
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:27.334
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:27.593
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:27.642
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:27.754
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:27.800
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:27.913
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:27.959
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:28.080
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:28.127
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:28.256
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:28.309
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:28.563
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:28.619
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:28.857
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:28.909
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:29.176
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:29.226
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:29.360
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:29.409
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:29.833
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:29.885
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:29.999
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:30.049
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:30.279
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:30.324
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:30.625
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:30.676
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:30.978
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -1041 @ 0xFFFFFF66) The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:27:31.032
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -1041 @ 0xFFFFFF66)
+The emulator reported an error. Confirm emulator configuration and connections, reset the emulator, and retry the operation.
+(Emulation package 5.1.232.0)
+
+!SESSION 2022-11-16 18:27:43.006 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-16 18:27:49.010
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 18:27:49.010
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 18:27:49.010
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 18:27:49.010
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 18:27:49.010
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 18:27:49.010
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 18:27:49.010
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 18:27:49.010
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-16 18:27:49.010
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:29:37.398
+!MESSAGE DS_ERROR: C28xx: Error: (Error -150 @ 0x0) One of the FTDI driver functions used during configuration returned a invalid status or an error. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:29:37.720
+!MESSAGE DS_ERROR: C28xx: Unable to determine target status after 20 attempts
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-11-16 18:29:37.746
+!MESSAGE DS_ERROR: C28xx: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+!SESSION 2022-11-28 16:30:54.973 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 16:31:24.116
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:31:24.116
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:31:24.116
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:31:24.116
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:31:24.116
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:31:24.116
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:31:24.116
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:31:24.116
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 16:31:24.116
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+!SESSION 2022-11-28 18:03:59.006 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-11-28 18:04:10.505
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:04:10.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:04:10.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:04:10.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:04:10.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:04:10.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:04:10.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:04:10.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-11-28 18:04:10.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.core.resources 4 1 2022-11-28 18:18:15.688
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: X:\Desktop\INEL5508\CCSCLVI\CCSCLVI\.project.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:371)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:797)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.descriptionChanged(FileSystemResourceManager.java:369)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:634)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1465)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1446)
+	at org.eclipse.core.internal.resources.Workspace.copyTree(Workspace.java:1126)
+	at org.eclipse.core.internal.resources.Workspace.copyTree(Workspace.java:1164)
+	at org.eclipse.core.internal.resources.Workspace.move(Workspace.java:2114)
+	at org.eclipse.core.internal.resources.ResourceTree.movedProjectSubtree(ResourceTree.java:669)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1039)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2018)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: X:\Desktop\INEL5508\CCSCLVI\CCSCLVI\.project (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	... 23 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2022-11-28 18:18:15.688
+!MESSAGE File not found: X:\Desktop\INEL5508\CCSCLVI\CCSCLVI\.project.
+!STACK 0
+java.io.FileNotFoundException: X:\Desktop\INEL5508\CCSCLVI\CCSCLVI\.project (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:797)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.descriptionChanged(FileSystemResourceManager.java:369)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:634)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1465)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1446)
+	at org.eclipse.core.internal.resources.Workspace.copyTree(Workspace.java:1126)
+	at org.eclipse.core.internal.resources.Workspace.copyTree(Workspace.java:1164)
+	at org.eclipse.core.internal.resources.Workspace.move(Workspace.java:2114)
+	at org.eclipse.core.internal.resources.ResourceTree.movedProjectSubtree(ResourceTree.java:669)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1039)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2018)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2022-11-28 18:18:16.092
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1642)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Problems encountered while setting project description.
+org.eclipse.core.runtime.CoreException: Could not write file: C:\Users\marcos.pesante\Downloads\Workshop1_Microcontroller\F28069_BlinkingLed\.project.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:391)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1101)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:648)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1465)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1446)
+	at org.eclipse.core.internal.resources.ResourceTree.movedProjectSubtree(ResourceTree.java:702)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1039)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2018)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: C:\Users\marcos.pesante\Downloads\Workshop1_Microcontroller\F28069_BlinkingLed\.project (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:382)
+	... 18 more
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2022-11-28 18:18:16.092
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2022-11-28 18:18:16.092
+!MESSAGE Problems encountered while setting project description.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: C:\Users\marcos.pesante\Downloads\Workshop1_Microcontroller\F28069_BlinkingLed\.project.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:391)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1101)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:648)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1465)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1446)
+	at org.eclipse.core.internal.resources.ResourceTree.movedProjectSubtree(ResourceTree.java:702)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1039)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2018)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: C:\Users\marcos.pesante\Downloads\Workshop1_Microcontroller\F28069_BlinkingLed\.project (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:382)
+	... 18 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2022-11-28 18:18:16.092
+!MESSAGE Could not write file: C:\Users\marcos.pesante\Downloads\Workshop1_Microcontroller\F28069_BlinkingLed\.project.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\marcos.pesante\Downloads\Workshop1_Microcontroller\F28069_BlinkingLed\.project (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:382)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1101)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:648)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1465)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1446)
+	at org.eclipse.core.internal.resources.ResourceTree.movedProjectSubtree(ResourceTree.java:702)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1039)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:2018)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1630)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-11-28 18:18:19.742
+!MESSAGE Could not write file: C:\Users\marcos.pesante\Downloads\Workshop1_Microcontroller\F28069_BlinkingLed\.cproject.
+** Error occured because of file status <hidden>.
+** This status is disabled now, to allow writing.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-28 18:18:20.381
+!MESSAGE Indexed 'CCSCLVI' (10 sources, 33 headers) in 0.51 sec: 5,541 declarations; 6,288 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

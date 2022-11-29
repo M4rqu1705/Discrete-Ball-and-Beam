@@ -1,0 +1,6 @@
+{"widgetBindings": [{
+    "propertyName": "value",
+    "serverBindName": "value:pm.$refresh_interval",
+    "widgetId": "widget_2",
+    "options": {"dataType": "String"}
+}]}

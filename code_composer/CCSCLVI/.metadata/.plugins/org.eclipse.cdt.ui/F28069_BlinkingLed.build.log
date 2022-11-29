@@ -1,0 +1,12 @@
+
+**** Build of configuration Debug for project F28069_BlinkingLed ****
+
+"C:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building target: Example_2806xAdcSoc.out'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv5/tools/compiler/c2000_6.2.0/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 -g --define=_DEBUG --define=LARGE_MODEL --quiet --verbose_diagnostics --diag_warning=225 --issue_remarks --output_all_syms --cdebug_asm_data -z --stack_size=0x200 -m"Example_2806xAdcSoc.map" --warn_sections -i"C:/ti/ccsv5/tools/compiler/c2000_6.2.0/lib" -i"C:/ti/ccsv5/tools/compiler/c2000_6.2.0/include" -i"C:/ti/controlSUITE/device_support/f2806x/v130/F2806x_common/lib" -i"C:/ti/controlSUITE/libs/math/IQmath/v15c/lib" -i"C:/ti/controlSUITE/libs/math/FPUfastRTS/v100/lib" --reread_libs --priority --verbose_diagnostics --issue_remarks --xml_link_info="Example_2806xAdcSoc_linkInfo.xml" --entry_point=code_start --rom_model -o "Example_2806xAdcSoc.out"  "./main.obj" "./F2806x_usDelay.obj" "./F2806x_SysCtrl.obj" "./F2806x_PieVect.obj" "./F2806x_PieCtrl.obj" "./F2806x_GlobalVariableDefs.obj" "./F2806x_EQep.obj" "./F2806x_EPwm.obj" "./F2806x_DefaultIsr.obj" "./F2806x_CpuTimers.obj" "./F2806x_CodeStartBranch.obj" "./F2806x_Adc.obj" "../F28069.cmd" "../F2806x_Headers_nonBIOS.cmd" -lrts2800_fpu32.lib -lIQmath_fpu32.lib -lrts2800_fpu32_fast_supplement.lib 
+warning: entry-point symbol other than "_c_int00" specified:  "code_start"
+'Finished building target: Example_2806xAdcSoc.out'
+' '
+
+**** Build Finished ****

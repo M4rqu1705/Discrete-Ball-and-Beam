@@ -1,0 +1,6 @@
+
+INSTALLROOT_F2806x_V130 = ../../
+INSTALLROOT_F2806x_TO_IQMATH = ../../../../../libs/math/IQmath
+INSTALLROOT_F2806x_TO_FASTRTS = ../../../../../libs/math/FPUfastRTS
+INSTALLROOT_F2806x_V130_TO_MWARE = ../../MWare/
+INSTALLROOT_F2806x_TO_HCCAL = ../../../../../libs/utilities/hrcap_hccal

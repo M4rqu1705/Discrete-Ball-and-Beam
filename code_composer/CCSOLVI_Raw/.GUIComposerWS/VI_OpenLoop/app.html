@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head data-gc-version="1.2.201308270800">
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="lib/davinci.dojo_1_8/WebContent/dojo/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gc','location':'../../../../davinci.gc_1_2/WebContent/gc'},{'name':'maqetta','location':'../../../../davinci.gc_1_2/WebContent/maqetta'}]"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "gc/dijit/ScalarLineGraph",
+  "gc/dijit/TextBox",
+  "gc/dijit/libs/steelseries/steelseries.amd.min",
+  "gc/dijit/Dial"
+]);
+</script>
+<style>@import "lib/davinci.dojo_1_8/WebContent/maqetta/themes/claro/document.css";@import "lib/davinci.dojo_1_8/WebContent/maqetta/themes/claro/claro.css";@import "lib/davinci.dojo_1_8/WebContent/dojo/dojo/resources/dojo.css";@import "lib/davinci.gc_1_2/WebContent/gc/dijit/libs/jqplot/css/jquery.jqplot.min.css";@import "lib/davinci.gc_1_2/WebContent/gc/dijit/libs/css/widgets.css";@import "app.css";
+</style>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="lib/davinci.gc_1_2/WebContent/gc/backplane/guiComposer.js"></script>
+<script type="text/javascript" src="lib/davinci.gc_1_2/WebContent/gc/dijit/libs/jqplot/jqplotGraphFull.min.js"></script>
+</head>
+<body class="claro" data-maq-flow-layout="false" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+ <div id="ADCInputs" data-dojo-type="gc.dijit.ScalarLineGraph" title="ADC Inputs" height="250" width="350" bufferLength="150" resetAxesOption="on" xMaxValue="15" xShowTicks="true" xLabel="Time" yMinValue="-500" yMaxValue="4500" yShowTicks="true" yLabel="Digitized Input" seriesName0="ADC Master" seriesName1="ADC Slave" showLegend="true" showGridLines="true" visible="true" style="position: absolute; z-index: 900; width: 600px; height: 350px; left: 39px; top: 68px;"></div>
+ <input id="RefreshRate" type="text" data-dojo-type="gc.dijit.TextBox" name="Refresh Rate" value="100" intermediateChanges="false" trim="false" uppercase="false" lowercase="false" propercase="false" selectOnClick="false" visible="true" style="position: absolute; z-index: 900; left: 777.890625px; top: 325px;"></input>
+ <canvas id="MotorVoltsDial" data-dojo-type="gc.dijit.Dial" title="Motor Voltage" unit="[V]" size="150" minValue="-5" maxValue="5" setValueOnDrag="true" value="0" labelNumberFormat="fractional" fractionalScaleDecimals="1" frameDesign="tiltedBlack" dialDesign="anthracite" visible="true" style="position: absolute; z-index: 900; left: 795px; top: 150px;"></canvas>
+ <div id="EncoderInputs" data-dojo-type="gc.dijit.ScalarLineGraph" title="Encoder Inputs" height="250" width="350" bufferLength="150" resetAxesOption="on" xMaxValue="15" xShowTicks="true" xLabel="Time" yShowTicks="true" yLabel="Encoder Counts" showLegend="false" showGridLines="true" visible="true" style="position: absolute; z-index: 900; width: 600px; height: 350px; left: 39px; top: 436px;"></div>
+</body>
+</html>
