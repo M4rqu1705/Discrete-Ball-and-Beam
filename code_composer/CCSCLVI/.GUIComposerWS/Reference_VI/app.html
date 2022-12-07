@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head data-gc-version="1.2.201308270800">
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="lib/davinci.dojo_1_8/WebContent/dojo/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gc','location':'../../../../davinci.gc_1_2/WebContent/gc'},{'name':'maqetta','location':'../../../../davinci.gc_1_2/WebContent/maqetta'}]"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "gc/dijit/ScalarLineGraph",
+  "gc/dijit/TextBox"
+]);
+</script>
+<style>@import "lib/davinci.dojo_1_8/WebContent/maqetta/themes/claro/document.css";@import "lib/davinci.dojo_1_8/WebContent/maqetta/themes/claro/claro.css";@import "lib/davinci.dojo_1_8/WebContent/dojo/dojo/resources/dojo.css";@import "lib/davinci.gc_1_2/WebContent/gc/dijit/libs/jqplot/css/jquery.jqplot.min.css";@import "lib/davinci.gc_1_2/WebContent/gc/dijit/libs/css/widgets.css";@import "app.css";
+</style>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="lib/davinci.gc_1_2/WebContent/gc/backplane/guiComposer.js"></script>
+<script type="text/javascript" src="lib/davinci.gc_1_2/WebContent/gc/dijit/libs/jqplot/jqplotGraphFull.min.js"></script>
+</head>
+<body class="claro" data-maq-flow-layout="false" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}">
+ <div id="widget_1" data-dojo-type="gc.dijit.ScalarLineGraph" title="Ball Positions" height="250" width="350" bufferLength="100" resetAxesOption="expandOnly" xShowTicks="true" yMinValue="-0.05" yMaxValue="0.5" yShowTicks="true" yLabel="Positions [m]" seriesName0="Master" seriesName1="Slave" showLegend="true" showGridLines="true" visible="true" style="border: 1px solid black; position: absolute; z-index: 900; left: 73px; top: 40px; width: 597px; height: 533px;"></div>
+ <input id="widget_2" type="text" data-dojo-type="gc.dijit.TextBox" value="1000" intermediateChanges="false" trim="false" uppercase="false" lowercase="false" propercase="false" selectOnClick="false" visible="true" style="position: absolute; z-index: 900; width: 71.109375px; left: 663px; top: 603px;"></input>
+ <div id="widget_7" data-dojo-type="gc.dijit.ScalarLineGraph" title="Motor angle" height="250" width="350" bufferLength="50" resetAxesOption="on" xShowTicks="true" yShowTicks="true" yLabel="Angle [deg]" seriesName0="Measurement" seriesName1="Reference" showLegend="false" showGridLines="true" visible="true" style="border: 1px solid black; position: absolute; z-index: 900; left: 726px; top: 40px; width: 562px; height: 530px;"></div>
+</body>
+</html>

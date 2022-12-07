@@ -837,3 +837,332 @@ java.io.FileNotFoundException: C:\Users\marcos.pesante\Downloads\Workshop1_Micro
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-11-28 18:18:20.381
 !MESSAGE Indexed 'CCSCLVI' (10 sources, 33 headers) in 0.51 sec: 5,541 declarations; 6,288 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2022-12-05 12:27:55.538 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-12-05 12:28:14.807
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-05 12:28:14.807
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-05 12:28:14.807
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-05 12:28:14.807
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-05 12:28:14.807
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-05 12:28:14.807
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-05 12:28:14.807
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-05 12:28:14.807
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-05 12:28:14.807
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 4 0 2022-12-05 12:28:39.167
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.buildDefinitions.core'.
+!STACK 0
+com.ti.ccstudio.system.setup.HardwareDbException: File ../cpus/cla2.xml does not exist.  Was included by file C:\ti\ccsv5\ccs_base\common\targetdb\devices\f280049.xml
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$IncludeFileOperation.getAbsolutePath(SystemSetupReader.java:1476)
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$IncludeFileOperation.addToListOfSetupElements(SystemSetupReader.java:1489)
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$CpuCacheItem.addToListOfSetupElements(SystemSetupReader.java:1647)
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$CpuCacheItem.getSetupElements(SystemSetupReader.java:1671)
+	at com.ti.ccstudio.system.setup.SystemSetupReader.openFlatSystemSetupFile(SystemSetupReader.java:2769)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader$SetupModelCache.load(DeviceModelLoader.java:379)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader.loadRealDevices(DeviceModelLoader.java:1012)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader.access$1(DeviceModelLoader.java:1004)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader$InitializationJob.run(DeviceModelLoader.java:790)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader$InitializationJob$2.run(DeviceModelLoader.java:708)
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 4 0 2022-12-05 12:28:39.167
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.buildDefinitions.core'.
+!STACK 0
+com.ti.ccstudio.system.setup.HardwareDbException: File ../cpus/cla2.xml does not exist.  Was included by file C:\ti\ccsv5\ccs_base\common\targetdb\devices\f280049c.xml
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$IncludeFileOperation.getAbsolutePath(SystemSetupReader.java:1476)
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$IncludeFileOperation.addToListOfSetupElements(SystemSetupReader.java:1489)
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$CpuCacheItem.addToListOfSetupElements(SystemSetupReader.java:1647)
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$CpuCacheItem.getSetupElements(SystemSetupReader.java:1671)
+	at com.ti.ccstudio.system.setup.SystemSetupReader.openFlatSystemSetupFile(SystemSetupReader.java:2769)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader$SetupModelCache.load(DeviceModelLoader.java:379)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader.loadRealDevices(DeviceModelLoader.java:1012)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader.access$1(DeviceModelLoader.java:1004)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader$InitializationJob.run(DeviceModelLoader.java:790)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader$InitializationJob$2.run(DeviceModelLoader.java:708)
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 4 0 2022-12-05 12:28:39.177
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.buildDefinitions.core'.
+!STACK 0
+com.ti.ccstudio.system.setup.HardwareDbException: File ../cpus/cla2.xml does not exist.  Was included by file C:\ti\ccsv5\ccs_base\common\targetdb\devices\f280049m.xml
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$IncludeFileOperation.getAbsolutePath(SystemSetupReader.java:1476)
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$IncludeFileOperation.addToListOfSetupElements(SystemSetupReader.java:1489)
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$CpuCacheItem.addToListOfSetupElements(SystemSetupReader.java:1647)
+	at com.ti.ccstudio.system.setup.SystemSetupReader$CpuCache$CpuCacheItem.getSetupElements(SystemSetupReader.java:1671)
+	at com.ti.ccstudio.system.setup.SystemSetupReader.openFlatSystemSetupFile(SystemSetupReader.java:2769)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader$SetupModelCache.load(DeviceModelLoader.java:379)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader.loadRealDevices(DeviceModelLoader.java:1012)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader.access$1(DeviceModelLoader.java:1004)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader$InitializationJob.run(DeviceModelLoader.java:790)
+	at com.ti.ccstudio.devicemodel.DeviceModelLoader$InitializationJob$2.run(DeviceModelLoader.java:708)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-05 12:52:50.935
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -151 @ 0x0) One of the FTDI driver functions used during the connect returned bad status or an error. The cause may one or more of: invalid emulator serial number, blank emulator EEPROM, missing FTDI drivers, faulty USB cable. Use the xds100serial command-line utility in the 'common/uscif' folder to verify the emulator can be located. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-05 12:52:50.992
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -151 @ 0x0)
+One of the FTDI driver functions used during
+the connect returned bad status or an error.
+The cause may one or more of: invalid emulator serial number,
+blank emulator EEPROM, missing FTDI drivers, faulty USB cable.
+Use the xds100serial command-line utility in the 'common/uscif'
+folder to verify the emulator can be located.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-05 12:55:08.195
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -151 @ 0x0) One of the FTDI driver functions used during the connect returned bad status or an error. The cause may one or more of: invalid emulator serial number, blank emulator EEPROM, missing FTDI drivers, faulty USB cable. Use the xds100serial command-line utility in the 'common/uscif' folder to verify the emulator can be located. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-05 12:55:08.235
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -151 @ 0x0)
+One of the FTDI driver functions used during
+the connect returned bad status or an error.
+The cause may one or more of: invalid emulator serial number,
+blank emulator EEPROM, missing FTDI drivers, faulty USB cable.
+Use the xds100serial command-line utility in the 'common/uscif'
+folder to verify the emulator can be located.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-05 13:01:43.104
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -151 @ 0x0) One of the FTDI driver functions used during the connect returned bad status or an error. The cause may one or more of: invalid emulator serial number, blank emulator EEPROM, missing FTDI drivers, faulty USB cable. Use the xds100serial command-line utility in the 'common/uscif' folder to verify the emulator can be located. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-05 13:01:43.134
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -151 @ 0x0)
+One of the FTDI driver functions used during
+the connect returned bad status or an error.
+The cause may one or more of: invalid emulator serial number,
+blank emulator EEPROM, missing FTDI drivers, faulty USB cable.
+Use the xds100serial command-line utility in the 'common/uscif'
+folder to verify the emulator can be located.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY org.eclipse.ui 4 0 2022-12-05 13:11:58.411
+!MESSAGE Problems opening perspective 'com.ti.ccstudio.TICPerspective'
+!SESSION 2022-12-06 07:06:56.074 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-12-06 07:07:54.625
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:07:54.625
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:07:54.625
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:07:54.625
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:07:54.625
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:07:54.625
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:07:54.625
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:07:54.625
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:07:54.625
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+!SESSION 2022-12-06 07:08:26.168 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-12-06 07:09:22.505
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:09:22.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:09:22.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:09:22.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:09:22.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:09:22.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:09:22.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:09:22.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 07:09:22.505
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 07:16:50.813
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -151 @ 0x0) One of the FTDI driver functions used during the connect returned bad status or an error. The cause may one or more of: invalid emulator serial number, blank emulator EEPROM, missing FTDI drivers, faulty USB cable. Use the xds100serial command-line utility in the 'common/uscif' folder to verify the emulator can be located. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 07:16:51.113
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -151 @ 0x0)
+One of the FTDI driver functions used during
+the connect returned bad status or an error.
+The cause may one or more of: invalid emulator serial number,
+blank emulator EEPROM, missing FTDI drivers, faulty USB cable.
+Use the xds100serial command-line utility in the 'common/uscif'
+folder to verify the emulator can be located.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 07:25:26.819
+!MESSAGE DS_ERROR: C28xx: Error: (Error -150 @ 0x0) One of the FTDI driver functions used during configuration returned a invalid status or an error. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 07:25:27.169
+!MESSAGE DS_ERROR: C28xx: Unable to determine target status after 20 attempts
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 07:25:27.199
+!MESSAGE DS_ERROR: C28xx: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 07:26:50.417
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -151 @ 0x0) One of the FTDI driver functions used during the connect returned bad status or an error. The cause may one or more of: invalid emulator serial number, blank emulator EEPROM, missing FTDI drivers, faulty USB cable. Use the xds100serial command-line utility in the 'common/uscif' folder to verify the emulator can be located. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 07:26:50.445
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -151 @ 0x0)
+One of the FTDI driver functions used during
+the connect returned bad status or an error.
+The cause may one or more of: invalid emulator serial number,
+blank emulator EEPROM, missing FTDI drivers, faulty USB cable.
+Use the xds100serial command-line utility in the 'common/uscif'
+folder to verify the emulator can be located.
+(Emulation package 5.1.232.0)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 07:28:13.714
+!MESSAGE DS_ERROR: C28xx: Error connecting to the target: (Error -154 @ 0x0) One of the FTDI driver functions used to write data returned bad status or an error. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 07:28:13.742
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -154 @ 0x0)
+One of the FTDI driver functions used to
+write data returned bad status or an error.
+(Emulation package 5.1.232.0)
+
+!SESSION 2022-12-06 13:16:43.926 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-12-06 13:16:56.242
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2022-12-06 13:16:57.111
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 13:16:57.111
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 13:16:57.111
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 13:16:57.111
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 13:16:57.111
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 13:16:57.111
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 13:16:57.111
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 13:16:57.111
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 13:16:57.111
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY com.ti.ccstudio.debug.server 4 214294189 2022-12-06 13:17:01.859
+!MESSAGE Unexpected CCS exit detected [12/6/22 7:09 AM]!!!
+!SESSION 2022-12-06 15:23:45.789 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-12-06 15:24:11.163
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 15:24:11.163
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 15:24:11.163
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 15:24:11.163
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 15:24:11.163
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 15:24:11.163
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 15:24:11.163
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 15:24:11.163
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 15:24:11.163
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 16:31:46.086
+!MESSAGE DS_ERROR: C28xx: Error: (Error -150 @ 0x0) One of the FTDI driver functions used during configuration returned a invalid status or an error. (Emulation package 5.1.232.0) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 16:31:46.252
+!MESSAGE DS_ERROR: C28xx: Unable to determine target status after 20 attempts
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-12-06 16:31:46.276
+!MESSAGE DS_ERROR: C28xx: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY org.eclipse.ui 4 0 2022-12-06 16:32:07.024
+!MESSAGE Problems opening perspective 'com.ti.ccstudio.TICPerspective'
+!SESSION 2022-12-06 22:44:07.593 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2022-12-06 22:47:09.292
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 22:47:09.292
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 22:47:09.292
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 22:47:09.292
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 22:47:09.292
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 22:47:09.292
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 22:47:09.292
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 22:47:09.292
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-12-06 22:47:09.292
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'

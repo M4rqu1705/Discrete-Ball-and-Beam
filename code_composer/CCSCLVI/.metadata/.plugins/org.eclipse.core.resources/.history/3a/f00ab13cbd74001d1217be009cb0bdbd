@@ -1,0 +1,152 @@
+#include "DSP28x_Project.h"  // Device Headerfile and Examples Include File
+
+#define PI 3.141592653589793238462643383
+#define ENCODER_OFFSET 8192
+#define ADC_SENSITIVITY (0.42 / 4095.0)
+#define ENCODER_SENSITIVITY (-PI / 2048.0)
+
+volatile float64 adc_master, adc_slave, encoder, motor_volts;
+volatile float64 master_position, slave_position, theta_rad, theta_deg,
+    theta_error;
+volatile float64 theta_ref = 0, theta_ref_1 = 0, theta_ref_2 = 0;
+volatile float64 position_error = 0, position_error_1 = 0, position_error_2 = 0;
+
+void volt2PWM(float32 volts);
+
+__interrupt void cpu_timer0_isr(void);  // Timer interrupt function prototype
+
+// Configuration Functions
+void initEpwm();
+void InitEQep(void);
+
+Uint32 Interrupt_Count = 0, Loop_Count = 0;
+
+void main(void) {
+  // Step 1. Initialize System Control: F2806x_SysCtrl.c
+  InitSysCtrl();
+
+  // Step 2. Initialize GPIO: F2806x_EQep.c
+  // For this case only init GPIO for eQEP1 and ePWM1
+  InitEQep1Gpio();
+  InitEQep2Gpio();
+  InitEPwm1Gpio();
+  EALLOW;
+  EDIS;
+
+  // Step 3. Clear all interrupts and initialize PIE vector table:
+  // F2806x_PieCtrl.c
+
+  // Initialize the PIE control registers to their default state.
+  DINT;
+
+  // The default state is all PIE interrupts disabled and flags are cleared.
+  InitPieCtrl();
+
+  // Disable CPU interrupts and clear all CPU interrupt flags
+  IER = 0x0000;
+  IFR = 0x0000;
+  InitPieVectTable();
+
+  // Interrupts that are used in this example are re-mapped to ISR functions
+  // found within this file.
+  EALLOW;  // This is needed to write to EALLOW protected registers
+  PieVectTable.TINT0 = &cpu_timer0_isr;
+  EDIS;  // This is needed to disable write to EALLOW protected registers
+
+  // Step 4. Initialize all the Device Peripherals:
+  InitCpuTimers();  // For this example, only initialize the Cpu Timers
+  // Configure CPU-Timer 0, 1, and 2 to interrupt every second:
+  // 80MHz CPU Freq, 1 second Period (in uSeconds)
+  ConfigCpuTimer(&CpuTimer0, 80, 30E3);
+  CpuTimer0Regs.TCR.all =
+      0x4001;  // Use write-only instruction to set TSS bit = 0
+
+  // For this example, init the ADC
+  InitAdc();
+
+  // This function exists in Example_EPwmSetup.c
+  initEpwm();
+  InitEQep();
+
+  // Step 5. User specific code, enable interrupts:
+  // Enable CPU INT1 which is connected to CPU-Timer 0:
+
+  // Configure GPIO34 as a GPIO output pin for the red light LD3
+  EALLOW;
+
+  // BLinking LED Configuration
+  GpioCtrlRegs.GPBMUX1.bit.GPIO34 = 0;
+  GpioCtrlRegs.GPBDIR.bit.GPIO34 = 1;
+
+  IER |= M_INT3;                       // Enable Timer Interrupts
+  IER |= M_INT10;                      // Enable ADC Interrupts
+  IER |= M_INT1;                       // Enable CPU Interrupt 1
+  PieCtrlRegs.PIEIER1.bit.INTx2 = 10;  // Enable INT 10.2 in the PIE for ADCINT2
+  PieCtrlRegs.PIEIER1.bit.INTx7 = 1;   // Enable INT 1.7 in the PIE for TIMER0
+  EDIS;
+
+  // Enable global Interrupts and higher priority real-time debug events:
+  EINT;  // Enable Global interrupt INTM
+  ERTM;  // Enable Global realtime interrupt DBGM
+
+  // Initialize encoder
+  EQep1Regs.QPOSCNT = (Uint32)(ENCODER_OFFSET) + 1024;
+
+  for (;;) {
+    Loop_Count++;
+  }
+}
+
+void volt2PWM(float32 volts) {
+  if (volts > 5) volts = 5;
+  if (volts < -5) volts = -5;
+
+  if (volts >= 0) {
+    EPwm1Regs.CMPA.half.CMPA = 4096.0 / 5.0 * volts;
+    EPwm1Regs.CMPB = 0;
+  } else {
+    EPwm1Regs.CMPA.half.CMPA = 0;
+    EPwm1Regs.CMPB = -4096.0 / 5.0 * volts;
+  }
+}
+
+__interrupt void cpu_timer0_isr(void)  // TIMER0 INTERRUPT ROUTINE
+{
+  CpuTimer0.InterruptCount++;
+
+  // Toggle GPIO34
+  GpioDataRegs.GPBTOGGLE.bit.GPIO34 = 1;
+
+  // Acknowledge this interrupt to receive more interrupts from group 1
+  PieCtrlRegs.PIEACK.all = PIEACK_GROUP1;  // interrupt Acknowledge
+
+  // Retrieve raw values from inputs
+  adc_master = AdcResult.ADCRESULT0;
+  adc_slave = AdcResult.ADCRESULT1;
+  encoder = (float)(EQep1Regs.QPOSCNT) - ENCODER_OFFSET;
+
+  // Convert raw measurements to physical parameters
+  master_position = adc_master * ADC_SENSITIVITY;
+  slave_position = adc_slave * ADC_SENSITIVITY;
+  theta_rad = encoder * ENCODER_SENSITIVITY;
+  theta_deg = theta_rad * 180.0 / PI;
+
+  // Calculate errors
+  position_error = master_position - slave_position;
+  theta_ref = 65.0 * position_error - 127.075 * position_error_1 62.10425 * position_error_2 + 1.745 * theta_ref_1 - 0.74625 * theta_ref_2;
+
+  if(theta_ref > PI / 2.0) theta_ref = PI / 2.0;
+  if(theta_ref < -PI / 2.0) theta_ref = -PI / 2.0;
+
+  theta_error = theta_ref - theta_rad;
+  motor_volts = 7.0 * theta_error;
+
+  // Move motor
+  volt2PWM(motor_volts);
+
+  // Update memory registries
+  position_error_2 = position_error_1;
+  position_error_1 = position_error;
+  theta_ref_2 = theta_ref_1;
+  theta_ref_1 = theta_ref;
+}

@@ -1,6 +1,44 @@
-{"widgetBindings": [{
-    "propertyName": "value",
-    "serverBindName": "value:pm.$refresh_interval",
-    "widgetId": "widget_2",
-    "options": {"dataType": "String"}
-}]}
+{"widgetBindings": [
+    {
+        "propertyName": "value",
+        "serverBindName": "value:pm.$refresh_interval",
+        "widgetId": "widget_2",
+        "options": {"dataType": "String"}
+    },
+    {
+        "propertyName": "value0",
+        "serverBindName": "master_position",
+        "widgetId": "widget_1",
+        "options": {"dataType": "Double"}
+    },
+    {
+        "propertyName": "updateTrigger",
+        "serverBindName": "$refresh_id",
+        "widgetId": "widget_1",
+        "options": {"dataType": "String"}
+    },
+    {
+        "propertyName": "value1",
+        "serverBindName": "slave_position",
+        "widgetId": "widget_1",
+        "options": {"dataType": "Double"}
+    },
+    {
+        "propertyName": "value0",
+        "serverBindName": "theta_deg",
+        "widgetId": "widget_7",
+        "options": {"dataType": "Double"}
+    },
+    {
+        "propertyName": "updateTrigger",
+        "serverBindName": "$refresh_id",
+        "widgetId": "widget_7",
+        "options": {"dataType": "String"}
+    },
+    {
+        "propertyName": "value1",
+        "serverBindName": "theta_ref * 180.0 / 3.1416",
+        "widgetId": "widget_7",
+        "options": {"dataType": "Double"}
+    }
+]}
