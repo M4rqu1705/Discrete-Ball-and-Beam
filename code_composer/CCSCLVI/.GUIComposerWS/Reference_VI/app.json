@@ -25,7 +25,7 @@
     },
     {
         "propertyName": "value0",
-        "serverBindName": "theta_deg",
+        "serverBindName": "-theta_deg",
         "widgetId": "widget_7",
         "options": {"dataType": "Double"}
     },
